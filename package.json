@@ -1,7 +1,7 @@
 {
-  "name": "proxy-image-service",
+  "name": "proxy-image-test",
   "version": "0.0.3",
-  "description": "A simple Node.js image proxy service",
+  "description": "A Node.js image proxy test",
   "main": "app.js",
   "scripts": {
     "deploy": "gcloud app deploy",
@@ -11,10 +11,6 @@
     "test": "mocha --exit",
       "posttest": "npm run lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamslevy/proxy-image-service.git"
-  },
   "engines": {
     "node": ">=8.0.0"
   },
@@ -22,12 +18,6 @@
     "proxy",
     "node"
   ],
-  "author": "James Levy",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jamslevy/proxy-image-service/issues"
-  },
-  "homepage": "https://github.com/jamslevy/proxy-image-service#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
     "mocha": "^6.1.4"
